@@ -5,6 +5,8 @@ This is the repo for the Code Challenge API. The API is responsible for:
 - GET requests to get user data
 - GET requests to get user's journal entry data
 - PATCH requests to update a user's journal entry
+- DELETE requests to delete a user and their data
+- DELETE requests to delete a journal entry 
 - In the POST and PATCH requests for journal entry data, OpenAI is used to generate mood metadata
 
 
