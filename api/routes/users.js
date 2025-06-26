@@ -36,7 +36,7 @@ router.get("/", async (req, res) => {
   await collection
   .aggregate([
     {
-      $match: { firebaseId: query.firebaseId },
+      $match: { token: query.fb_token },
     },
   ])
   .toArray()
